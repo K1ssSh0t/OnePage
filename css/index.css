@@ -1,0 +1,109 @@
+html,
+body {
+  scroll-behavior: smooth;
+}
+#section-1 {
+  background-image: url("../img/imagen-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#section-2 {
+  background-image: url("../img/imagen-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+#section-3 {
+  background-image: url("../img/imagen-3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+#section-4 {
+  background-image: url("../img/imagen-4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+#section-5 {
+  background-image: url("../img/imagen-5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+#section-6 {
+  background-image: url("../img/imagen-6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+nav {
+  right: 50px;
+  top: 10px;
+  position: absolute;
+
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  display: inline-flex;
+}
+div.navegacion {
+  color: #303031 !important;
+  font-size: 20px;
+  /*font-family: Ubuntu Mono;*/
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+#contenedor-boton {
+  width: 100%;
+  height: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: black;
+  border-radius: 8px;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+}
+#contenedor-boton button {
+  width: 310px;
+  height: 31px;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+img {
+  width: 259px;
+  height: 133px;
+}
+
+.top {
+  place-self: end;
+  position: sticky;
+  bottom: 20px;
+  right: 1px;
+  margin-left: 20px;
+  margin-top: 100vh;
+
+  /* visual styling */
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #fff;
+  background: #000;
+  border-radius: 100px;
+  white-space: nowrap;
+}
